@@ -10,6 +10,12 @@
     <servlet-class>com.jxc.servlet.ManageBasePartCategoryServlet</servlet-class>
   </servlet>
   <servlet>
+
+    <servlet-name>ManagePurchaseServlet</servlet-name>
+    <servlet-class>com.jxc.servlet.ManagePurchaseServlet</servlet-class>
+  </servlet>
+  <servlet>
+
     <servlet-name>ManageSellServlet</servlet-name>
     <servlet-class>com.jxc.servlet.ManageSellServlet</servlet-class>
   </servlet>
@@ -20,6 +26,20 @@
     <url-pattern>/basedata/ManageBasePartCategoryServlet</url-pattern>
   </servlet-mapping>
   <servlet-mapping>
+
+    <servlet-name>ManageSellServlet</servlet-name>
+    <url-pattern>/sell/ManageSellServlet</url-pattern>
+  </servlet-mapping>	
+
+
+
+  <servlet-mapping>
+    <servlet-name>ManagePurchaseServlet</servlet-name>
+    <url-pattern>/purchase/ManagePurchaseServlet</url-pattern>
+
+  </servlet-mapping>
+  <servlet-mapping>
+  
     <servlet-name>ManageSellServlet</servlet-name>
     <url-pattern>/sell/ManageSellServlet</url-pattern>
   </servlet-mapping>	
@@ -27,3 +47,4 @@
     <welcome-file>index.jsp</welcome-file>
   </welcome-file-list>
 </web-app>
+
