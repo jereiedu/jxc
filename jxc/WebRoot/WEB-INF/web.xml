@@ -9,10 +9,19 @@
     <servlet-name>ManageBasePartCategoryServlet</servlet-name>
     <servlet-class>com.jxc.servlet.ManageBasePartCategoryServlet</servlet-class>
   </servlet>
+  <servlet>
+    <servlet-name>ManagePurchaseServlet</servlet-name>
+    <servlet-class>com.jxc.servlet.ManagePurchaseServlet</servlet-class>
+  </servlet>
+
 
   <servlet-mapping>
     <servlet-name>ManageBasePartCategoryServlet</servlet-name>
     <url-pattern>/basedata/ManageBasePartCategoryServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ManagePurchaseServlet</servlet-name>
+    <url-pattern>/purchase/ManagePurchaseServlet</url-pattern>
   </servlet-mapping>	
   <welcome-file-list>
     <welcome-file>index.jsp</welcome-file>
